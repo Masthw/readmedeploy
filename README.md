@@ -121,7 +121,6 @@ sudo docker compose down <nome_do_servico>
 | `Tipo do Banco`        | Não Relacional | Relacional  | Relacional | Relacional |
 | `Recomendado`          |       ✅       |     ✅      |     ❌     |     ❌     |
 | `Precisa de migration` |       ❌       |     ✅      |     ✅     |     ✅     |
-|                        |                |             |            |            |
 
 - Para realizar a migration em MySql ou PostgresSql é recomendado que seja feita a conexão do **computador do colaborador** para o banco no **servidor**, não recomendável fazer a migration direto com o código do servidor.
 
