@@ -78,8 +78,7 @@ Deve ser atualizado valores necessários para que o docker-compose esteja corret
 ### ⚠️ Importante:
 
 - Certifique-se de substituir valores placeholders por dados reais.
-- Não utilize nomes de serviços internos do Docker, como docx_back ou docx_db, na BASE_URL (frontend) das chamadas de API. Use o domínio ou IP público real do servidor
-
+- Não utilize nomes de serviços internos do Docker como sistem_back em chamadas do frontend, apenas em chamadas internas como o backend se conectando com sistem_db. Use o domínio ou IP público real do servidor em chamadas frontend.
 ---
 
 ## ⬆️ Subir os containers com Docker Compose:
